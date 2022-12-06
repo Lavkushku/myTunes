@@ -1,0 +1,350 @@
+/* 
+:root{
+    --backgroundColor1:antiquewhite;
+    --backgroundColor2:#045be6;
+    --backgroundColor3:#4CAF50;
+    --backgroundColor4:white;
+    --backgroundColor5:#f44336;
+    --backgroundColor6:#66666e;
+    --backgroundColor7:#3d5c94;
+    --backgroundColor8:#555557;
+    --textColor1:antiquewhite;
+    --textColor2:darkblue;
+    --textColor3:black;
+    --textColor4:aliceblue;
+    --textColor5:#111135;
+    --textColor6:#333030;
+    --textColor7:white;
+    --textColor8:blue;
+    --textColor9:#f44336;
+    --textColor10:#0b0b85;
+    --gridFont:sans-serif;
+} */
+
+body{
+    background-color: transparent;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+/* Navbar srart here */
+
+#logo img{
+    width: 100px;
+    height: 50px;
+    margin-top: 0px;
+}
+
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:var(--backgroundColor1);
+    /* width: 100%; */
+    
+}
+
+#menu ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+#menu ul li{
+    height: 60px;
+    margin: 0px 0px 0px 20px;
+    
+    
+}
+#menu ul li a{
+    text-decoration: none;
+    color:  var(--textColor3);
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+    margin: 5px 8px ;
+    
+    padding: 0px 5x 0px 0px;
+    position: relative;
+}
+
+#menu ul li a::after{
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color:var(--backgroundColor2);
+    position: absolute;
+    bottom: -15px;
+    transition: width 0.3s;
+    
+}
+
+#menu ul li a:hover::after,
+#menu ul li .active-link::after
+{
+    width: 100%;
+    
+}
+
+#menu ul li a:hover{
+    /* background-color: black; */
+    
+    color: var(--textColor2);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+/* Navbar End here */
+
+
+
+    /* <!-- Banner start here --> */
+
+/* print button start here */
+
+.button {
+    background-color:var(--backgroundColor3); /* Green */
+    border: none;
+    
+    color: var(--textColor2);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+.btnprint {
+    background-color:var(--backgroundColor4); 
+    color: var(--textColor3); 
+    border: 2px solid var(--textColor9);
+    border-radius: 10px;
+  }
+  
+
+.btnprint:hover {
+    background-color:var(--backgroundColor5);
+    color: var(--textColor7);
+    color: var(--textColor8);
+    border: 3px solid ;
+  }
+
+  /* print button End here */
+
+
+    .main{
+       
+
+        background: url(img/SL_123119_26540_02.jpg) no-repeat bottom/cover;
+    padding: 10rem 0;
+    }
+
+    .main h1{
+        font-size: 4rem;
+        margin-bottom: 0;
+    }
+    .main h2{
+        font-size: 2rem;
+    }
+    .main #banner{
+        margin-top: 25vh;
+    }
+
+    .banner-item{
+        text-align: center;
+        color: var(--textColor7);
+        
+    }
+
+
+#Music{
+    
+    
+    text-align: center;
+    margin: 20px 100px 0px 100px ;
+    letter-spacing: 1px;
+    
+}
+.Music{
+    width: 100%;
+    height: auto;
+    color: var(--textColor7);
+    background-color:var(--backgroundColor6);
+    
+}
+.btn{
+    padding: 20px;
+    background-color: transparent;
+    color: var(--textColor8);
+    border: 4px solid var(--textColor2);
+    border-radius: 10px;
+    margin: 30px;
+    font-size: 20px;
+}
+.btn:hover{
+    color: var(--textColor7);
+    background-color:var(--backgroundColor7);
+    font-weight: bold;
+    cursor: pointer;
+}
+.img img{
+    width: 80%;
+    margin: 30px 0px 0px 150px;
+}
+
+
+
+ #video1{
+    
+    margin-top: 20px;
+    background: url(img/white-wallpaper-full-hd-unna-wallpaper-hd-1020263592.jpg) no-repeat bottom/cover;
+    padding: 10rem 0;
+    
+ }
+
+ #peragrap{
+    font-weight: lighter;
+ }
+
+ .img1 img{
+    width: 70%;
+    margin-left: 20%;
+ }
+
+
+.entertainment{
+        
+        margin-top: 20px;
+        background: url(img/22-10-08_WMBD2.png) no-repeat bottom/cover;
+        padding: 10rem 0;
+}
+
+ .text{
+    margin-top: 20%;
+    text-align:center ;
+    font-weight: bolder;
+    font-size: 30px;
+  
+ }
+ #pera{
+    color:var(--textColor4);
+    font-size: 20px;
+    font-weight:lighter;
+    
+ }
+ 
+
+ p{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    
+ }
+ #pera{
+    font-size: 1.3em;
+ }
+ .btn2{
+    padding: 15px;
+    margin: 20px;
+    background-color:var(--backgroundColor7);
+    border-radius: 10px;
+    font-weight: bolder;
+    border: 3px solid;
+    /* color: white; */
+    font-size: large;
+    
+ }
+ .btn2:hover{
+    background-color: transparent;
+    border: 3px solid #0b0b85;
+    font-size: smaller;
+    color: var(--textColor5);
+ }
+
+
+ /* gift cards start here */
+ .gift{
+    
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: left;
+    
+    
+ }
+ #gift-info, #gift1{
+   color: var(--textColor6);
+   margin-top: 40px;
+  
+ }
+ .gift2{
+    background-color:var(--backgroundColor4);
+    width: 100%;
+    height: 500px;
+   }
+
+ /* Footer start her */
+
+ footer #footer-item{
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(4,1fr);
+    padding: 2rem;
+    text-align: left;
+    font-size: 17px;
+ }
+ footer #footer-item ul a{
+    text-decoration: none;
+    list-style-type: none;
+    
+    color: var(--textColor4);
+ }
+ .footer{
+    background-color:var(--backgroundColor6);
+
+ }
+ #pooter-copy{
+    height: 40px;
+    text-align: center;
+    background-color:var(--backgroundColor8);
+    padding: 20px 0px 0px 0px;
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+
+
+ /*  */
+
+ @media screen and (width: 780px) {
+    .gift {
+      grid-template-columns: 1fr;
+    }
+
+    footer #footer-item {
+      /* display: none; */
+    }
+    h1,h2{
+        padding: 12px;
+    }
+  }
+
+  @media screen and (max-height: 580px) {
+    nav #pera {
+      display: none;
+    }
+  }
+

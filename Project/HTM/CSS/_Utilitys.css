@@ -1,0 +1,22 @@
+
+:root{
+    --backgroundColor1:antiquewhite;
+    --backgroundColor2:#045be6;
+    --backgroundColor3:#4CAF50;
+    --backgroundColor4:white;
+    --backgroundColor5:#f44336;
+    --backgroundColor6:#66666e;
+    --backgroundColor7:#3d5c94;
+    --backgroundColor8:#555557;
+    --textColor1:antiquewhite;
+    --textColor2:darkblue;
+    --textColor3:black;
+    --textColor4:aliceblue;
+    --textColor5:#111135;
+    --textColor6:#333030;
+    --textColor7:white;
+    --textColor8:blue;
+    --textColor9:#f44336;
+    --textColor10:#0b0b85;
+    --gridFont:sans-serif;
+}
